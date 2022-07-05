@@ -9,10 +9,22 @@
         android:id="@+id/homeFragment"
         android:name="com.ibrahim.logindesing.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_reagisterFragment"
+            app:destination="@id/reagisterFragment" />
+    </fragment>
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.ibrahim.logindesing.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/reagisterFragment"
+        android:name="com.ibrahim.logindesing.ReagisterFragment"
+        android:label="fragment_reagister"
+        tools:layout="@layout/fragment_reagister" />
 </navigation>
