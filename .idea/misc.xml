@@ -9,7 +9,8 @@
         <entry key="..\:/dart/LoginDesing/app/src/main/res/drawable/social.xml" value="0.1" />
         <entry key="..\:/dart/LoginDesing/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/dart/LoginDesing/app/src/main/res/layout/fragment_home.xml" value="0.152" />
-        <entry key="..\:/dart/LoginDesing/app/src/main/res/layout/fragment_login.xml" value="0.2" />
+        <entry key="..\:/dart/LoginDesing/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/dart/LoginDesing/app/src/main/res/layout/fragment_reagister.xml" value="0.16" />
       </map>
     </option>
   </component>
